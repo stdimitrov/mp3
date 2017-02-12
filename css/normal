@@ -12,13 +12,129 @@
     }
 
     menu {
-        text-decoration: none;
+        width: 90%;
+        height: 50px;
+        padding: 15px;
+        border: 1px;
+        list-style: none;
+
     }
 
     menu li {
+        width: 120px;
+        height: 30px;
+        border: 1px;
+        padding: 15px;
+        margin-left: 30px;
+        display: inline;
+        float: left;
 
     }
+
+    menu li a {
+        display: inline;
+        text-decoration: none;
+        outline: none;
+        font-size: 20px;
+        color: #111111;
+        font-family: "DejaVu Sans";
+        background-image: -webkit-radial-gradient(circle, #9e9e91, #c2c2a3);
+        background-image: -o-radial-gradient(circle, #9e9e91, #c2c2a3);
+        background-image: -moz-radial-gradient(circle, #9e9e91, #c2c2a3);
+        background-image: radial-gradient(circle, #9e9e91, #c2c2a3);
+    }
+
+    menu li a:hover {
+        display: inline;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "DejaVu Sans";
+        color: #666160;
+        background-image: -webkit-radial-gradient(circle, #dbdbc9, #c2c2a3);
+        background-image: -o-radial-gradient(circle, #dbdbc9, #c2c2a3);
+        background-image: -moz-radial-gradient(circle, #dbdbc9, #c2c2a3);
+        background-image: radial-gradient(circle, #dbdbc9, #c2c2a3);
+    }
+
+    /* page 1 */
+    #page1 {
+        width: 95%;
+        padding: 15px;
+    }
+
+    #page1 p {
+        padding: 0 45px 0 45px;
+        text-align: justify;
+        font-family: Times, "Times New Roman", Georgia, serif;
+        font-size: 19px;
+        text-shadow: 2px 2px 2px #fafafe;
+    }
+
+    /* page 2 */
+
+    #page2 {
+        width: 95%;
+        margin: auto;
+        padding: 15px;
+    }
+
+    #box-left {
+        width: 500px;
+        margin: 15px 1px 15px 45px;
+        padding: 20px;
+        border: 1px solid #9E9E91;
+        border-radius: 7px;
+        float: left;
+    }
+
+    #box-left ul , #box-right ul {
+        list-style: none;
+    }
+
+    #box-right {
+        width: 500px;
+        margin: 15px 45px 15px 1px;
+        padding: 20px;
+        border: 1px solid #9E9E91;
+        border-radius: 7px;
+        float: right;
+    }
+
+    progress {
+        background-color: #f3f3f3;
+        border: 0;
+        height: 18px;
+        border-radius: 9px;
+    }
+
+    /* page 3 */
+
+
+    #slide-a, #slide-b, #slide-c, #slide-d {
+        margin: 10px 50px 10px 50px;
+        padding: 15px;
+        height: 18px;
+        text-align: center;
+        background-image: -webkit-radial-gradient(circle, #9e9e91, #c2c2a3);
+        background-image: -o-radial-gradient(circle, #9e9e91, #c2c2a3);
+        background-image: -moz-radial-gradient(circle, #9e9e91, #c2c2a3);
+        background-image: radial-gradient(circle, #9e9e91, #c2c2a3);
+        border: solid 1px #c3c3c3;
+        border-radius: 5px;
+
+    }
+
+    #panel-a, #panel-b, #panel-c, #panel-d {
+        padding: 15px;
+        display: none;
+    }
+
+    /* page 4 */
+
+    /* page 5 */
+
 }
+
 
 @media only screen and (max-width: 1280px) and (min-width: 1025px) {
 
