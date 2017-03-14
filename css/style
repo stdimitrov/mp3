@@ -3,3 +3,119 @@ html, body {
     padding: 0;
     background-color: #c2c2a3;
 }
+
+p {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    text-shadow: 2px 2px 2px #fafafe;
+}
+
+h2 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    text-shadow: 2px 2px 2px #fafafe;
+}
+
+menu {
+    border: 1px;
+    list-style: none;
+}
+
+menu li {
+    border: 1px;
+    display: inline;
+    float: left;
+}
+
+menu li a {
+    display: inline;
+    text-decoration: none;
+    outline: none;
+    color: #111111;
+    font-family: "DejaVu Sans";
+    background-image: -webkit-radial-gradient(circle, #9e9e91, #c2c2a3);
+    background-image: -o-radial-gradient(circle, #9e9e91, #c2c2a3);
+    background-image: -moz-radial-gradient(circle, #9e9e91, #c2c2a3);
+    background-image: radial-gradient(circle, #9e9e91, #c2c2a3);
+}
+
+menu li a:hover {
+    display: inline;
+    text-decoration: none;
+    font-family: "DejaVu Sans";
+    color: #666160;
+    background-image: -webkit-radial-gradient(circle, #dbdbc9, #c2c2a3);
+    background-image: -o-radial-gradient(circle, #dbdbc9, #c2c2a3);
+    background-image: -moz-radial-gradient(circle, #dbdbc9, #c2c2a3);
+    background-image: radial-gradient(circle, #dbdbc9, #c2c2a3);
+}
+
+/* page 1 */
+
+#page1 p {
+    text-align: justify;
+}
+
+/* page 2 */
+
+#page2 {
+    margin: auto;
+}
+
+progress {
+    background-color: #f3f3f3;
+    border-radius: 9px;
+}
+
+/* page 3 */
+
+#slide-a, #slide-b, #slide-c, #slide-d {
+    text-align: center;
+    background-image: -webkit-radial-gradient(circle, #9e9e91, #c2c2a3);
+    background-image: -o-radial-gradient(circle, #9e9e91, #c2c2a3);
+    background-image: -moz-radial-gradient(circle, #9e9e91, #c2c2a3);
+    background-image: radial-gradient(circle, #9e9e91, #c2c2a3);
+    border: solid 1px #c3c3c3;
+    border-radius: 6px;
+    text-shadow: 2px 2px 2px #fafafe;
+}
+
+#panel-a, #panel-b, #panel-c, #panel-d {
+    width: 92%;
+    display: none;
+    margin: auto;
+    text-align: justify;
+    text-shadow: 2px 2px 2px #fafafe;
+}
+
+/* page 4 */
+
+#slideshow {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+}
+
+#slideshow .slideshow_img .img {
+    margin: auto;
+}
+
+/* page 5 */
+
+#name-name #email-email #message-message {
+    border: 2px solid #9E9E91;
+    border-radius: 5px;
+    font-family: Helvetica;
+    font-style: italic;
+    color: #9E9E91;
+}
+
+input[type="submit"] {
+    border: 2px solid #9E9E91;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: helvetica;
+    color: #9E9E91;
+}
