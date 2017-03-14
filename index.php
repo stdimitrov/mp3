@@ -1,5 +1,6 @@
 <?php
 mb_internal_encoding('UTF-8');
+include 'function.php';
 include 'html/dct.php';
 include 'html/header.php';
 ?>
